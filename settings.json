@@ -1,0 +1,173 @@
+{
+  // Workbench
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.jar": "default"
+  },
+  "workbench.colorTheme": "One Monokai",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+
+  "workbench.preferredDarkColorTheme": "One Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    //   "statusBar.background": "#333333",
+    //   "statusBar.noFolderBackground": "#333333",
+    //   "statusBar.debuggingBackground": "#00000000",
+    //   "debugConsole.infoForeground": "#218bfb",
+    //   "debugConsole.warningForeground": "#fbc421",
+    //   "debugConsole.errorForeground": "#fb2121"
+  },
+
+  // Terminal
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.external.osxExec": "Warp.app",
+
+  // Git
+  "dart.debugSdkLibraries": true,
+  "git.allowForcePush": false,
+  "git.allowNoVerifyCommit": true,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "git.repositoryScanMaxDepth": -1,
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "gitlens.debug": true,
+  "gitlens.codeLens.includeSingleLineSymbols": true,
+  "gitlens.advanced.repositorySearchDepth": 5,
+
+  // Dart
+  "[dart]": {
+    "editor.rulers": [150],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "matchingDocuments"
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.enableServerSnippets": true,
+  "dart.lspSnippetTextEdits": false,
+  "dart.cliConsole": "terminal",
+  "dart.flutterSdkPaths": ["/Users/mr.rajput/fvm/versions"],
+  "dart.sdkPath": null,
+  "dart.warnWhenEditingFilesInPubCache": true,
+  "dart.warnWhenEditingFilesOutsideWorkspace": true,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.hotReloadProgress": "notification",
+  "dart.flutterCreateAndroidLanguage": "java",
+  "dart.flutterHotReloadOnSave": "allIfDirty",
+  "dart.hotReloadOnSave": "allIfDirty",
+  "dart.flutterOutline": false,
+  "dart.previewFlutterUiGuidesCustomTracking": false,
+  "dart.previewFlutterUiGuides": false,
+  "dart.flutterSdkPath": "/Users/mr.rajput/development/flutter",
+
+  // Explorer
+  "explorer.decorations.badges": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".flutter-plugins, .packages, .dart_tool, .flutter-plugins-dependencies, .metadata, .packages, pubspec.lock, build.yaml, analysis_options.yaml, all_lint_rules.yaml",
+    ".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+    "readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+    "*.dart": "$(capture).g.dart, $(capture).freezed.dart"
+  },
+
+  // Debug
+  "debug.console.fontFamily": "system-ui",
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.console.fontSize": 14,
+  "debug.console.closeOnEnd": false,
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.openExplorerOnEnd": false,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "debug.console.collapseIdenticalLines": false,
+  "debug.terminal.clearBeforeReusing": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.inlineValues": "on",
+
+  // Editor
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": true,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.mouseWheelZoom": false,
+  "editor.smoothScrolling": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrapColumn": 180,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 2,
+  "editor.snippetSuggestions": "inline",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.suggest.showFolders": false,
+  "editor.lineNumbers": "off",
+  "editor.tabCompletion": "off",
+  "editor.accessibilityPageSize": 12,
+  "editor.scrollbar.horizontalScrollbarSize": 4,
+  "editor.scrollbar.verticalScrollbarSize": 4,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.guides.indentation": true,
+  "editor.wordWrap": "on",
+  "editor.autoClosingDelete": "never",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontWeight": "normal",
+  "editor.guides.bracketPairs": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+  "editor.minimap.autohide": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#dac90f"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+
+  // Files
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "files.associations": {
+    "*.extension": "dart"
+  },
+
+  // ES-Lint
+  "eslint.run": "onSave",
+
+  // Gutter
+  "scm.diffDecorationsGutterPattern": {
+    "added": true,
+    "modified": true
+  },
+
+  // Window
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.customTitleBarVisibility": "windowed"
+}
